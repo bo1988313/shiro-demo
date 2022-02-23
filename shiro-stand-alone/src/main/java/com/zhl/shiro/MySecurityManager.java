@@ -17,11 +17,9 @@ public class MySecurityManager {
         //创建安全管理器
         DefaultSecurityManager defaultSecurityManager = new DefaultSecurityManager();
         //设置rems
-        defaultSecurityManager.setRealm(
-                new IniRealm("classpath:shiro.ini"));
+        defaultSecurityManager.setRealm(new IniRealm("classpath:shiro.ini"));
         //安全管理工具设置安全管理器
-        SecurityUtils.setSecurityManager(defaultSecurityManager
-        );
+        SecurityUtils.setSecurityManager(defaultSecurityManager);
         //获取对象主体
         Subject subject = SecurityUtils.getSubject();
 
