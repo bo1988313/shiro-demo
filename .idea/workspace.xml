@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45f084a9-e5b0-426c-a5b2-99fee58e3d60" name="Default Changelist" comment="用户认证异常场景代码优化">
-      <change afterPath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/CustomRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/Md5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+    <list default="true" id="45f084a9-e5b0-426c-a5b2-99fee58e3d60" name="Default Changelist" comment="shiro md5 加密测试">
+      <change afterPath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/Md5Realm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/MySecurityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/MySecurityManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.Md5TestTest">
+  <component name="RunManager" selected="JUnit.Md5RealmTest.testDoGetAuthenticationInfo">
     <configuration name="MySecurityManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhl.shiro.MySecurityManager" />
       <module name="shiro-stand-alone" />
@@ -109,6 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Md5RealmTest.testDoGetAuthenticationInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-stand-alone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhl.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhl.shiro" />
+      <option name="MAIN_CLASS_NAME" value="com.zhl.shiro.Md5RealmTest" />
+      <option name="METHOD_NAME" value="testDoGetAuthenticationInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Md5TestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro-stand-alone" />
       <extension name="coverage">
@@ -124,9 +137,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Md5TestTest.testMd5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-stand-alone" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhl.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhl.shiro" />
+      <option name="MAIN_CLASS_NAME" value="com.zhl.shiro.Md5TestTest" />
+      <option name="METHOD_NAME" value="testMd5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Md5RealmTest.testDoGetAuthenticationInfo" />
         <item itemvalue="JUnit.Md5TestTest" />
+        <item itemvalue="JUnit.Md5TestTest.testMd5" />
         <item itemvalue="JUnit.CustomRealmTest.testDoGetAuthorizationInfo" />
         <item itemvalue="Application.MySecurityManager" />
       </list>
@@ -141,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645588892579</updated>
       <workItem from="1645588893867" duration="73000" />
-      <workItem from="1645589089630" duration="6900000" />
+      <workItem from="1645589089630" duration="11054000" />
     </task>
     <task id="LOCAL-00001" summary="用户认证异常场景代码优化">
       <created>1645590191543</created>
@@ -150,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645590191543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shiro md5 加密测试">
+      <created>1645598922950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645598922950</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用户认证异常场景代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户认证异常场景代码优化" />
+    <MESSAGE value="shiro md5 加密测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="shiro md5 加密测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
