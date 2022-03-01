@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45f084a9-e5b0-426c-a5b2-99fee58e3d60" name="Default Changelist" comment="shiro md5 加密测试">
-      <change afterPath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/Md5Realm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/Md5Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-stand-alone/src/main/java/com/zhl/shiro/Md5Realm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,15 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,6 +172,9 @@
       <updated>1645588892579</updated>
       <workItem from="1645588893867" duration="73000" />
       <workItem from="1645589089630" duration="11054000" />
+      <workItem from="1645677638088" duration="935000" />
+      <workItem from="1646052757488" duration="559000" />
+      <workItem from="1646098402249" duration="2308000" />
     </task>
     <task id="LOCAL-00001" summary="用户认证异常场景代码优化">
       <created>1645590191543</created>
@@ -204,6 +206,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用户认证异常场景代码优化" />
