@@ -33,15 +33,23 @@ public class Md5Realm extends AuthorizingRealm {
 
         //模拟数据库查询用户权限
         List<String> roleList = new ArrayList<>();
+        List<String> resourceList = new ArrayList<>();
         if (USERNAME.equals(mainPrincipal)) {
             roleList.add("user");
             roleList.add("admin");
+            resourceList.add("voice:*");
+            resourceList.add("user:*:*");
+            resourceList.add("ocr:baidu:*");
+            resourceList.add("produce:select:01");
+
         }
 
         //角色授权
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
         simpleAuthorizationInfo.addRoles(roleList);
 
+        //资源授权
+        simpleAuthorizationInfo.addStringPermissions(resourceList);
         return simpleAuthorizationInfo;
     }
 
