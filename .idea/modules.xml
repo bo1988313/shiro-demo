@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shiro-demo.iml" filepath="$PROJECT_DIR$/shiro-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-stand-alone/shiro-stand-alone.iml" filepath="$PROJECT_DIR$/shiro-stand-alone/shiro-stand-alone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-jsp/springboot-shiro-jsp.iml" filepath="$PROJECT_DIR$/springboot-shiro-jsp/springboot-shiro-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shiro-jsp2/springboot-shiro-jsp2.iml" filepath="$PROJECT_DIR$/springboot-shiro-jsp2/springboot-shiro-jsp2.iml" />
     </modules>
   </component>
 </project>
